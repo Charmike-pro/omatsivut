@@ -1,19 +1,7 @@
 body {
     background-color: gray;
   }
-
-  h1 {
-    color: white;
-    text-align:center;
-    font-size:50px;
-  }
  
-p {
-
-    color: white;
-    text-align:center;
-    font-size:25px;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -36,5 +24,41 @@ ul {
   
 
   li a:hover {
-    background-color: #111;
+    background-color: cyan;
+    color: black;
   }
+
+  h1 {
+    color: white;
+    text-align:center;
+    font-size:50px;
+    -webkit-animation:name 2s infinite;
+}
+
+@-webkit-keyframes name {
+    0% {color: lightskyblue;}
+    25% {color:cyan;}
+    50% {color: lightskyblue;}
+    75% {color:cyan;}
+    100% {color: lightskyblue;}
+}
+
+p {
+font-size: 25px;
+color: white;
+text-align: center;
+}
+
+.a-git {
+text-align: center;
+display: block;
+color: cyan;
+font-size: 40px;
+}
+
+.git-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
